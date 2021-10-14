@@ -2,10 +2,9 @@ package eu.crystal.BlogApiMongoDB.repository;
 
 import java.util.List;
 
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.mongodb.repository.MongoRepository;
-
 import eu.crystal.BlogApiMongoDB.model.Article;
+import org.springframework.data.mongodb.repository.Query;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ArticleRepository extends MongoRepository<Article, Integer> {
 
